@@ -1,3 +1,5 @@
+import React from "react";
+
 const Results = ({ results }) => {
     if (!results) return <p>No results to display.</p>;
   
