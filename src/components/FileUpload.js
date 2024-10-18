@@ -21,3 +21,5 @@ const FileUpload = ({ onFileUpload }) => {
     </form>
   );
 };
+
+export default FileUpload;

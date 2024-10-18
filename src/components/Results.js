@@ -10,3 +10,5 @@ const Results = ({ results }) => {
       </div>
     );
   };
+
+  export default Results;
