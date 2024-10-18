@@ -11,8 +11,8 @@ const UploadPage = ({ setResults }) => {
     formData.append('file', file);
 
     try {
-      console.log('Sending request to:', 'http://127.0.0.1:5000/api/analyze');
-      const response = await fetch('http://127.0.0.1:5000/api/analyze', {
+      console.log('Sending request to:', 'https://karboncard-internship-assignment.onrender.com/api/analyze');
+      const response = await fetch('https://karboncard-internship-assignment.onrender.com/api/analyze', {
         method: 'POST',
         body: formData,
       });
